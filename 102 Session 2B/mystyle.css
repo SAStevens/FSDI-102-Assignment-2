@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,700&display=swap');
+/* * = global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+} 
+
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    padding: 8px 10px;
+}
+
+nav.menu a{
+    color: black;
+    margin-right: 20px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+
+
+h3{
+    font-size: 30px;
+}
+
+span a{
+    color: white;
+}
+
+.logo-frame{
+    height: 30px;
+}
+
+.logo-complete{
+    display: none;
+}
+
+.link-login{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.link-search{
+    display: none;
+}
+
+.link-news{
+    display: none;
+}
+
+.link-subs{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white !important;
+    background-color: black;
+    padding: 16px;
+    background: linear-gradient(to left, black 50%, rgb(217, 194, 14) 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.link-subs:hover{
+    color: black !important;
+    background-color: rgb(217,194,14);
+    background-position: left;
+}                      
+
+.link-menu{
+    display: none;
+}
+
+.link-arrrows{
+
+}
+
+.sub-p{
+    color: white;
+    background-color: yellow;
+    text-align: center;
+    /* text-decoration: underline yellow; */
+    padding: 1px;
+    border-bottom: 3px solid yellow;
+    background: linear-gradient(to bottom, black 50%, yellow 50%) top;
+    background-size: 100% 200%;
+    transition: .2s ease-out;
+}
+
+.sub-p:hover{
+    color: black;
+    background-color: yellow;
+    background-position: bottom;
+    font-weight: bolder;
+    padding: 5px;
+}
+
